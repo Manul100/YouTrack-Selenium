@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Allure Suite">
+    <listeners>
+        <listener class-name="utils.AllureTestListener"/>
+    </listeners>
+    <test name="Allure Test">
+        <classes>
+            <class name="UITests"/>
+        </classes>
+    </test>
+</suite>
